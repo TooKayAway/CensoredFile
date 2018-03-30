@@ -24,7 +24,6 @@ int main()
         last = line[i];
     }
   }
-  cout<<line;
   //Then, finally, this displays the censored version:
   cout<<first<<"**"<<last<<endl;
   return 0;
