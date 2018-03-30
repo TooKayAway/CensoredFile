@@ -20,8 +20,11 @@ int main()
   }
   first = line[0];
   for ( int i = 0; i < line.length(); i++ ) {
-    last = line[i];
+    if ( line[i] != 63 ) {
+        last = line[i];
+    }
   }
+  cout<<line;
   //Then, finally, this displays the censored version:
   cout<<first<<"**"<<last<<endl;
   return 0;
